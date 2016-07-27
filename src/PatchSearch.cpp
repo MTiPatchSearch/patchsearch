@@ -1,15 +1,3 @@
-// rm -rf PatchSearch
-// sous R 
-// library(Rcpp)
-// Rcpp.package.skeleton("PatchSearch", example_code = FALSE, cpp_files = c("PatchSearch.cpp"), force=TRUE) 
-// Rcpp::compileAttributes("PatchSearch")
-// sous shell:
-// R CMD INSTALL PatchSearch
-// sous R:
-// detach(unload = TRUE)
-// library(PatchSearch)
-
-// [[Rcpp::plugins(cpp11)]]
 #include <Rcpp.h>
 #include <ctime>
 using namespace Rcpp;
