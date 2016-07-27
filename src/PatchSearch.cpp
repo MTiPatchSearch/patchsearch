@@ -4,6 +4,7 @@ using namespace Rcpp;
 const double EPS =  1.e-8;
 const double MAXITER =  200;
 
+
 double *random_vect(int n) {
   int i;
   double *v=(double *) calloc(n, sizeof(double));
@@ -130,6 +131,11 @@ void euler(double *X,  double *Y, int n, double *v, double *w, int start) {
  * effet de bord: centrage de X et Y
  */
 
+//' Compute RMSD between matrices of coordinates X and Y
+//'
+//' @param X matrix Nx3
+//' @param Y matrix Nx3
+//' @export
 // [[Rcpp::export]]
 double rmsd(NumericMatrix X,  NumericMatrix Y) {
   double Xm[3], Ym[3];
