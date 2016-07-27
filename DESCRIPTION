@@ -4,8 +4,11 @@ Title: Protein binding site recognition
 Version: 0.1.0
 Author: Frédéric Guyon
 Maintainer: Frédéric Guyon <frederic.guyon@univ-paris-diderot.fr>
-Description: Compare a binding site (patch) in a PDB format to another patch or to  a protein surface
-License:None
+Description: Compare a binding site (patch) in a PDB format to another patch or
+    to a protein surface
+License: None
 LazyData: TRUE
 LinkingTo: Rcpp
-Imports: Rcpp
+Imports:
+    Rcpp
+RoxygenNote: 5.0.1
