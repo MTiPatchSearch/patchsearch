@@ -1,9 +1,9 @@
+// [[Rcpp::plugins(cpp11)]]
 #include <Rcpp.h>
 #include <ctime>
 using namespace Rcpp;
 const double EPS =  1.e-8;
 const double MAXITER =  200;
-
 
 double *random_vect(int n) {
   int i;

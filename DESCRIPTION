@@ -9,6 +9,5 @@ Description: Compare a binding site (patch) in a PDB format to another patch or
 License: None
 LazyData: TRUE
 LinkingTo: Rcpp
-Imports:
-    Rcpp
+Imports: Rcpp
 RoxygenNote: 5.0.1
