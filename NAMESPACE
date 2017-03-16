@@ -1,3 +1,0 @@
-useDynLib(PatchSearch)
-exportPattern("^[[:alpha:]]+")
-importFrom(Rcpp, evalCpp)
